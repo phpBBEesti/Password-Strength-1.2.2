@@ -1,7 +1,8 @@
 <?php
 /**
 *
-* Password Strength [English]
+* Password Strength [Estonia]
+* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
 *
 * @copyright (c) 2016 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
@@ -34,8 +35,8 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'PASSWORD_STRENGTH_TYPE'			=> 'Password strength algorithm',
-	'PASSWORD_STRENGTH_TYPE_EXPLAIN'	=> 'Choose an algorithm for determining the strength of a password.<br/><strong>Complexity</strong> looks for mixed characters, numbers, symbols and length in a password, encouraging complex passwords.<br/><strong>zxcvbn</strong> (by DropBox) calculates how easily a password can be guessed, allowing for strong user-friendly passwords.',
-	'PASSWORD_STRENGTH_TYPE_COMPLEX'	=> 'Complexity',
-	'PASSWORD_STRENGTH_TYPE_ZXCVBN'		=> 'zxcvbn algorithm',
+	'PASSWORD_STRENGTH_TYPE'			=> 'Parooli tugevuse algoritm',
+	'PASSWORD_STRENGTH_TYPE_EXPLAIN'	=> 'Valige parooli tugevuse määramiseks algoritm.<br/><strong>Keerukus</strong> otsib salasõnaga kus segatud märke, numbreid, sümboleid ja pikkust.<br/><strong>zxcvbn</strong> (by DropBox) arvutab, kui hõlpsalt parooli võime arvata, võimaldades tugevaid kasutajasõbralikke paroole.',
+	'PASSWORD_STRENGTH_TYPE_COMPLEX'	=> 'Keerukus',
+	'PASSWORD_STRENGTH_TYPE_ZXCVBN'		=> 'zxcvbn algoritm',
 ));
