@@ -2,7 +2,7 @@
 /**
 *
 * Password Strength [Estonian]
-* Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu>
+* Estonian translation by phpBBeesti.ee <https://www.phpbbeesti.ee>
 *
 * @copyright (c) 2013 Matt Friedman
 * @license GNU General Public License, version 2 (GPL-2.0)
